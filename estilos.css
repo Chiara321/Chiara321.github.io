@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+     background-color: #FFA4BE;
+}
+
+.fondo{
+    background-image: url(recursos/chica\ con\ computadora.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+    padding-bottom: 8%;
+    opacity: 75%;
+}
+
+.nombre{
+    font-family: 'Dosis', sans-serif;
+    font-size: 500%;
+    color: #000000;
+}
+
+.imagen-circulo{
+    border-radius: 50%;
+    max-width: 350px;
+    translate: 0 -30%;
+}
+
+.fondoB {
+    height: fit-content;
+    background-color: rgb(238, 213, 221);
+}
+
+.banner{
+    font-display: flex;
+    font-size: 400%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.descripcion{
+    font-display: flex;
+    font-size: 200%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.tarjetas{
+    display: flex;
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+.certificado{
+    width: 750px;
+    height: auto;
+    display: flex;
+    margin: 20px;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgb(54, 52, 52);
+    cursor: default;
+    transition: all 400ms ease;
+    background-color: #f08faa;
+}
+
+.card{
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgb(46, 45, 45);;
+    cursor: default;
+    transition: all 400ms ease;
+    background-color: #f08faa;
+}
+
+.card:hover{
+    box-shadow: 5px 1px 10px black;
+    transform: translateY(-3%);
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 100%;
+    opacity: 75%;
+}
+
+.card-text{
+
+    font-family: 'Dosis', bold;
+    font-size: 150%;
+    color: #000000;
+}
+
+.fondoI{
+    background-image: url(recursos/banderas.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondoE{
+    background-image: url(recursos/educacion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondoH{
+    background-image: url(recursos/RRHH.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tIdioma{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #FFA4BE;
+    border-radius: 10px;
+}
+
+.tEducacion{
+    color: black;
+}
+
+.fondoC{
+    height: fit-content;
+    background-color: rgb(238, 213, 221);
+    margin: 20px;
+}
+
+.comp{
+    margin: 30px;
+    font-family: 'Dosis', bold;
+    font-size: 250%;
+    color: #000000;
+}
+
+.logos{
+    padding: 20px;
+    max-width: 100px;
+    max-height: auto;
+}
+
+.pie{
+    background-color: rgb(245, 193, 210); 
+}
+
+.contacto{
+    padding-left: 10px;
+    font-family: 'Dosis', bold;
+    font-size: 120%;
+    color: #000000;
+}
+
+.whatsapp{
+    background-image: url(recursos/fondo\ whatsapp.jpg);
+    height: 170px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.texto-w{
+    font-family: 'Dosis', bold;
+    font-size: 150%;
+    color: black;
+}
+
+.bi-whatsapp{
+    color: white;
+}
+
+.ncompany{
+    font-family: 'Dosis', bold;
+    font-size: 130%;
+    color: black;
+    translate: 0 400%;
+}
+
+.btn-music{
+    padding: 20px;
+    display: flex;
+}
+

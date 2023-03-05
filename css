@@ -1,0 +1,23 @@
+.tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card {
+    width: auto;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-image: none;
+    box-shadow: 0px 1px 10px black;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 1px 10px black;
+    transform: translateY(-3%);
+}
